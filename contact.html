@@ -7,7 +7,44 @@
     <title>ION22 | Contact Us</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+<style>
+    body{
+        overflow-y: hidden;
+    }
+</style>
 <body>
-    
+    <div class="contact-div">
+        <div class="form-div">
+            <div class="form-header">
+                <a href="./index.html">
+                    Back to Home
+                </a>
+                <h2>
+                    Contact us
+                </h2>
+                <p>
+                    We are always happy to hear from you.
+                </p>
+            </div>  
+            <div class="form-content">
+                <label for="">Name</label> <br>
+                <input type="text" placeholder="John Doe">
+            </div>
+            <div class="form-content">
+                <label for="">Age</label><br>
+                <input type="number" placeholder="25">
+            </div>
+            <div class="form-content">
+                <label for="">Feedback</label><br>
+                <textarea type="text" placeholder="I like it...."></textarea>
+            </div>
+            <button onsubmit="submitform()">
+                Submit
+            </button>
+        </div>
+        <div class="image-div">
+    </div>
+    </div>
 </body>
+<script src="./app.js"></script>
 </html>
