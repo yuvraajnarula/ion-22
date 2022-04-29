@@ -1,142 +1,199 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-    width: 100%;
+html {
+  width: 100%;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #eee;
-    color: #111;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eee;
+  color: #111;
 }
-.navbar{
-    width: 100%;
-    display: flex;
-    height: 10vh;
-    padding-top: 1.5vw;
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 10vh;
+  padding-top: 1.5vw;
 }
 .navbar ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }
-.navbar ul li a{
-    color: #111;
-    text-decoration: none;
-    transition: all .5s ease;
-    font-weight: 500;
-    font-size: 1.25vw;
+.navbar ul li a {
+  color: #111;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-weight: 500;
+  font-size: 1.25vw;
 }
-.content-body{
-    width: 100%;
-    text-align: center;
-    margin-top: 8.5vw;
+.content-body {
+  width: 100%;
+  text-align: center;
+  margin-top: 8.5vw;
 }
-.content-body h1{
-    font-size: 3vw;
-    font-weight: 700;
-    margin-bottom: 2vw;
+.content-body h1 {
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 2vw;
 }
-.content-body a{
-    font-weight: 500;
-    color: #111;
-    border-radius: 25px;
-    border: 2px solid #111;
-    text-decoration: none;
-    padding: 10px;
-    transition: all .5s ease;
-    font-size: 1.15vw;
+.content-body a {
+  font-weight: 500;
+  color: #111;
+  border-radius: 25px;
+  border: 2px solid #111;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s ease;
+  font-size: 1.15vw;
 }
 .content-body p {
-    font-size: 1.25vw;
+  font-size: 1.25vw;
 }
-.contact-div{
-    display: flex; 
+.contact-div {
+  display: flex;
 }
-.form-div{
-    background-color: #111;
-    width: 40%;
-    border-radius: 10px;
-    height: 75vh;
-    margin: 6.5vw 5vw;
+.form-div {
+  background-color: #111;
+  width: 40%;
+  border-radius: 10px;
+  height: 75vh;
+  margin: 6.5vw 5vw;
 }
-.image-div{
-    width: 60%;
-    height: 75vh;
-    background: url('https://blush.design/api/download?shareUri=mmKcI3HCKjmBrtGq&w=800&h=800&fm=png');
-    background-size: cover;
-    background-position: center;
-    margin: 7.5vw 5vw;
+.image-div {
+  width: 60%;
+  height: 75vh;
+  background: url("https://blush.design/api/download?shareUri=mmKcI3HCKjmBrtGq&w=800&h=800&fm=png");
+  background-size: cover;
+  background-position: center;
+  margin: 7.5vw 5vw;
 }
-.form-header{
-    margin: 2.5vw 2.5vw;
-    color: #eee;
+.form-header {
+  margin: 2.5vw 2.5vw;
+  color: #eee;
 }
 .form-header a {
-    color: #eee;
+  color: #eee;
 }
-.form-header h2{
-    font-size: 2vw;
-    margin-top: 1.5vw;
+.form-header h2 {
+  font-size: 2vw;
+  margin-top: 1.5vw;
 }
-.form-content{
-    margin: .75vw 2.5vw;
-    color: #eee;
+.form-content {
+  margin: 0.75vw 2.5vw;
+  color: #eee;
 }
-.form-div button{
-    color: #111;
-    background: #eee;
-    border: none;
-    border-radius: 20px;
-    padding: 5px;
-    width: 25%;
-    font-size: 1.15vw;
-    transition: all .5s ease;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    margin: 2.5vw 2.5vw;
+.form-div button {
+  color: #111;
+  background: #eee;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  width: 25%;
+  font-size: 1.15vw;
+  transition: all 0.5s ease;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin: 2.5vw 2.5vw;
 }
-.form-content input, textarea{
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    transition: all .5s ease;
-    background: rgba(34, 33, 33, 0.9);
-    color: #eee;
-    margin-top: .5vw;
-    font-family: 'Poppins', sans-serif;
+.form-content input,
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.5s ease;
+  background: rgba(34, 33, 33, 0.9);
+  color: #eee;
+  margin-top: 0.5vw;
+  font-family: "Poppins", sans-serif;
 }
-.form-content input:focus, textarea:focus{
-    outline:none;
-    border: 2px slid rgba(20, 20, 20, 0.9);
+.form-content input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px slid rgba(20, 20, 20, 0.9);
 }
 .custom-shape-divider-bottom-1621526916 {
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1621526916 svg {
-    position: relative;
-    display: block;
-    width: calc(103% + 1.3px);
-    height: 192px;
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 192px;
 }
 .custom-shape-divider-bottom-1621526916 .shape-fill {
-    fill: #111;
+  fill: #111;
+}
+
+.project-head {
+  margin-top: 8.5vw;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-bottom: 2vw;
+}
+.product-cards {
+  display: inline-flex;
+  padding: 1vw;
+}
+.product-box {
+  cursor: pointer;
+  margin: 5px;
+  background-color: white;
+  color: rgba(34, 33, 33, 0.9);
+  transition: border 1s;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 2vw;
+}
+.product-box:hover {
+  border: 3px solid #000;
+}
+.product-box h3 {
+  font-size: 2vw;
+}
+.product-box img {
+  position: relative;
+  margin: 13px 0px -65px calc((100% - 980px) * 0.5);
+  left: 60px;
+  grid-area: 2 / 1 / 3 / 2;
+  justify-self: start;
+  align-self: start;
+}
+
+.product-container {
+  padding: 10px;
+}
+.product-container h5 {
+  color: #111;
+}
+.product-container img {
+  position: relative;
+  margin: 0px 0px 26px calc((100% - 980px) * 0.5);
+  left: 192px;
+  grid-area: 4 / 1 / 10 / 2;
+  justify-self: start;
+  align-self: start;
+}
+.product-container .image-text {
+  padding-left: 10vw;
 }
