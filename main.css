@@ -121,3 +121,22 @@ body{
     outline:none;
     border: 2px slid rgba(20, 20, 20, 0.9);
 }
+.custom-shape-divider-bottom-1621526916 {
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1621526916 svg {
+    position: relative;
+    display: block;
+    width: calc(103% + 1.3px);
+    height: 192px;
+}
+.custom-shape-divider-bottom-1621526916 .shape-fill {
+    fill: #111;
+}
