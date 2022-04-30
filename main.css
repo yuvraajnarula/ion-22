@@ -103,7 +103,7 @@ body {
   margin: 0.75vw 2.5vw;
   color: #eee;
 }
-.form-div button {
+.form-div .submit {
   color: #111;
   background: #eee;
   border: none;
@@ -116,8 +116,7 @@ body {
   cursor: pointer;
   margin: 2.5vw 2.5vw;
 }
-.form-content input,
-textarea {
+.form-content input {
   width: 100%;
   border: none;
   border-radius: 5px;
@@ -128,8 +127,7 @@ textarea {
   margin-top: 0.5vw;
   font-family: "Poppins", sans-serif;
 }
-.form-content input:focus,
-textarea:focus {
+.form-content input:focus {
   outline: none;
   border: 2px slid rgba(20, 20, 20, 0.9);
 }
