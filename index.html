@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oblivion</title>
     <link rel="stylesheet" href="./main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="https://media.discordapp.net/attachments/741244174736556076/969861388761710622/unknown.png">
 </head>
 <style>
@@ -33,16 +35,16 @@
     </div>
     <div class="landing-div">
         <div class="content-body">
-            <h1>
+            <h1 data-aos="fade-down" data-aos-duration="1500" data-aos-delay="750">
                 Everything you need to build your  <br>
                 experiences in a way you want.
             </h1>
-            <p>
+            <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
                 Empowering people to build their exquisite experiences with the tools <br>
                 services we provide. Reality can be a little overwhelming, but let's <br>
                 make it a little easier.
             </p> <br>
-            <a href="./prod.html">
+            <a href="./prod.html" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="2500">
                 Check out our demo
             </a>
         </div>
@@ -62,5 +64,6 @@
     document.querySelector('.logo').addEventListener('click',()=>{
         window.location.href = './index.html';
     })
+    AOS.init();
 </script>
 </html>

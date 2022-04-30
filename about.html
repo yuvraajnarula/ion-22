@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ION22 | About</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./main.css">
 </head>
@@ -28,14 +30,17 @@
             </li>
         </ul>
     </div>
-    <div class="project-head">
-       <h1>
+    <div class="project-head" >
+       <h1 data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
             Experience the world differently
        </h1>
-       <img src="https://blush.design/api/download?shareUri=QLiUYL9w6YEpteEG&w=800&h=800&fm=png" alt="" class="image-1">
+       <img data-aos="fade-down-right" data-aos-duration="1500" data-aos-delay="1000" src="https://blush.design/api/download?shareUri=QLiUYL9w6YEpteEG&w=800&h=800&fm=png" alt="" class="image-1">
     </div>
 
-    <div class="product-cards">
+    <div class="product-cards"  data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="0">
       <div class="product-box">
           <center>
             <i class="fa-solid fa-link"></i>
@@ -73,7 +78,9 @@
       </div>
     </a> -->
 
-    <div class="product-container">
+    <div class="product-container"  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <div class="image-text">
         <h5>Use anywhere</h5>
         <p>
@@ -83,7 +90,9 @@
       </div>
       <img src="https://blush.design/api/download?shareUri=74UVAqtMJK0KOd8v&w=800&h=800&fm=png" class="img-2" alt="">
     </div>
-    <div class="vr-div">
+    <div class="vr-div" v data-aos="fade-down"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
         <div>
             <h1>
                 Our products will be out soon
@@ -106,5 +115,6 @@
       document.querySelector('.logo').addEventListener('click',()=>{
         window.location.href = './index.html';
     })
+    AOS.init()
 </script>
 </html>

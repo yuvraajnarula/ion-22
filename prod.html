@@ -7,6 +7,8 @@
     <link rel="icon" href="https://media.discordapp.net/attachments/741244174736556076/969861388761710622/unknown.png">
     <title>Oblivion</title>
     <link rel="stylesheet" href="./main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <div class="navbar">
@@ -23,7 +25,9 @@
           </li>
       </ul>
     </div>
-    <div class="mobile-structure">
+    <div class="mobile-structure" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1500" data-aos-delay="500">
       <div class="line-1"></div>
       <div class="qr-code"></div>
       <button>
@@ -43,5 +47,6 @@
     document.querySelector('.logo').addEventListener('click',()=>{
         window.location.href = './index.html';
     })
+    AOS.init()
   </script>
 </html>
