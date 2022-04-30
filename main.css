@@ -274,3 +274,47 @@ textarea:focus {
   height: 25vh;
   margin-left: .5vw;
 }
+.mobile-structure{
+  height: 70vh;
+  width: 37.55vh;
+  border: 2px solid #111;
+  border-radius: 10px;
+  margin-top: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line-1{
+  height: 2px;
+  width: 7.5vh;
+  background-color: #111;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line-1{
+  margin-top: 5vh;
+}
+.qr-code{
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 27.5vh;
+  height: 27.5vh;
+  background: url('./assets/unknown\ \(1\).png');
+  background-size: cover;
+}
+.mobile-structure button{
+  width: 27.5vh;
+  height: 5vh;
+  background: #111;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-size: 1.25vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vw;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}

@@ -25,7 +25,18 @@
     <div class="mobile-structure">
       <div class="line-1"></div>
       <div class="qr-code"></div>
-      <div class="line-2"></div>
+      <button>
+        Copy link
+      </button>
     </div>
   </body>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+            $("button").click(function (event) {
+                event.preventDefault();
+                CopyToClipboard("https://go.echo3d.co/rDG1", true, "Link copied");
+            });
+        });
+  </script>
 </html>
