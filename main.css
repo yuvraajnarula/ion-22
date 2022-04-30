@@ -243,45 +243,6 @@ body {
   left: 50% !important;
   width: 45vh;
 }
-.vr-div{
-  margin-top: 7.5vw;
-  display: flex;
-  padding-bottom: 2.5vw;
-}
-.vr-div h1{
-  font-size: 2.75vw;
-}
-.vr-div h1, .vr-div p{
-  margin-left: 5vw;
-}
-.card-flex{
-  display: flex;
-}
-.card-1{
-  background: url('./assets/444-4447755_3d-model-download-vr-hd-png-download-removebg-preview.png');
-  background-size: cover;
-  background-position: center;
-  width: 25vh;
-  height: 25vh;
-  margin: 0px 0px 0px 5vw;
-}
-.card-2{
-  background: url('./assets/299-2995238_vr-glass-3d-model-hd-png-download-removebg-preview.png');
-  background-size: cover;
-  background-position: center;
-  width: 27.5vh;
-  height: 20vh;
-  margin-left: .5vw;
-  margin-top: .75vw;
-}
-.card-3{
-  background: url('./assets/kxnon4ef-900-removebg-preview.png');
-  background-size: cover;
-  background-position: center;
-  width: 25vh;
-  height: 25vh;
-  margin-left: .5vw;
-}
 .mobile-structure{
   height: 70vh;
   width: 37.55vh;
@@ -325,4 +286,19 @@ body {
   margin-top: 5vw;
   display: block;
   font-family: 'Poppins', sans-serif;
+}
+.copy-notification {
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: -85px;
+  display: none;
+  text-align:center;
+  font-size: 16px;  
 }
